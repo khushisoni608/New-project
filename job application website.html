@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application website</title>
+</head>
+<style>
+    body {
+        background-color: lightgray;
+        border: 3px solid black;
+        height: 800px;
+        text-align: justify;
+    }
+
+    button {
+        border-radius: 6px;
+        background-color: blue;
+        color: antiquewhite;
+        margin-left: 190px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+
+    }
+
+    .main {
+        margin-left: center;
+        font-size: large;
+
+    }
+
+    .box {
+        height: 30px;
+        width: 250px;
+        border-radius: 5px;
+        border-color: black;
+
+    }
+
+    h1 {
+
+        font-size: 50px;
+        font-weight: 90;
+        text-align: center;
+
+    }
+
+    .next {
+        display: flex;
+        flex-direction: column;
+        padding-left: 20%;
+        float: inline-start;
+    }
+</style>
+
+<body>
+
+</body>
+<div class="main">
+    <div class="form-control">
+    </div>
+    <div>
+        <h1>job Application(Web)</h1>
+        <label class="next">
+            First name <input type="text" class="box" placeholder="Enter First name">
+        </label>
+
+        <label class="next">
+            Last name<input type="text" class="box" placeholder="Enter Last name">
+        </label>
+
+
+        <label class="next">
+            <br><br>
+            Email <input type="email" class="box" placeholder="Ename Email">
+        </label>
+        <label class="next">
+            Job Role <select input type="text" class="box">
+                <option value="Select Job Role">Select Job role
+                <option>
+                <option value="technical">technical</option>
+                <option value="admistrative">admistrative</option>
+                <option value="support">support</option>
+                <option value="creative">creative</option>
+                <option value="fronted ">fronted develpoer</option>
+            </select>
+        </label>
+        <br><br><br>
+        <label class="next">
+            Address <br><textarea id="address" name="address" placeholder="Enter messages" rows="5"
+                cols="80"></textarea>
+        </label>
+        <br><br><br>
+        <label class="next">
+            City <input type="text" class="box">
+        </label>
+
+        <label class="next">
+            Pincode <input type="number" class="box" name="number">
+        </label>
+        <br><br>
+        <br>
+        <label class="next">
+            Start Date <input type="date" class="box">
+        </label>
+        <label class="next">
+            Upload Your CV <input type="file" class="box" placeholder="choose file">
+        </label>
+        <br><br><br>
+        <button>Apply Now</button>
+    </div>
+</div>
+
+
+
+</div>
+</div>
+
+</html>

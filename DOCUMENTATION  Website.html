@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        border: 4px solid black;
+    }
+
+    body {
+        background-color: lightgrey;
+        display: flex;
+    }
+
+    body {
+        font-family: "roboto", sans-serif;
+        font-weight: 300;
+        line-height: 1.4;
+        scroll-behavior: smooth;
+    }
+
+    header {
+        border: 1px solid grey;
+        height: 200vh;
+        margin-left: 0;
+        height: auto;
+        scroll-behavior: smooth;
+    }
+
+    nav h1 {
+        font-size: 25px;
+        font-weight: 500;
+        padding: 10px;
+        border-bottom: 1px solid grey;
+        display: block;
+
+    }
+
+    nav ul li {
+        font-size: 13px;
+        padding: 10px;
+        border-bottom: 1px solid grey;
+        color: black;
+    }
+
+    nav ul li:hover {
+        background: grey;
+        transition: 0.6s ease-in-out;
+    }
+
+    nav ul {
+        list-style: none;
+    }
+
+    nav a {
+        border-radius: 3px;
+    }
+
+
+    div {
+        margin-left: 160px;
+        text-align: justify;
+        margin-right: 100px;
+        letter-spacing: 1px;
+        line-height: 23px;
+        margin-top: 1px;
+
+    }
+
+    h2 {
+        line-height: 30px;
+        letter-spacing: 1px;
+    }
+</style>
+
+<body>
+    <header>
+        <nav>
+            <h1>JavaScript Documentation</h1>
+            <ul>
+                <a href="#Introduction">
+                    <li>Introduction</li>
+                </a>
+                <a href="#Why you should already know">
+                    <li>Why you should already know</li>
+                </a>
+                <a href="#Java and JavaScript">
+                    <li>Java and JavaScript</li>
+                </a>
+                <a href="#Hello World">
+                    <li>Hello World</li>
+                </a>
+                <a href="#Varible">
+                    <li>Varible</li>
+                </a>
+                <a href="#Server-Side">
+                    <li>Server-Side</li>
+                </a>
+            </ul>
+        </nav>
+    </header>
+    <div>
+        <br>
+        <section id="Introducton">
+            <h1>Introduction</h1>
+            <hr>
+            <br>
+            <article>
+                <p>JavaScript is a high-level, dynamically typed programming language primarily known for bringing
+                    interactivity to
+                    web pages.
+                <ul>
+                    <li>
+                        It is one of the three core technologies of the World Wide Web, alongside HTML (which defines
+                        the structure of web content) and CSS (which controls the styling and layout).
+                        Originally, JavaScript's main role was in client-side development, running directly within a
+                        user's
+                        web
+                        browser.
+                    </li>
+                    <li>
+                        This enables dynamic content, interactive elements like clickable buttons, form validation,
+                        animations,
+                        and real-time updates without requiring a full page reload.
+                    </li>
+                </ul>
+            </article>
+            </p>
+            <br>
+            <section id="Why you should already know">
+                <h2> Why you should already know</h2>
+                <hr>
+                <br>
+                <p>You should know JavaScript because it's essential for web development,</p>
+                <p>
+                <ul>
+                    <li>powering both interactive front-end and</li>
+                </ul>
+                </p>
+                <p>
+                <ul>
+                    <li>
+                        server-side back-ends. Its versatility extends to building mobile apps, desktop apps, and
+                        games,and it has
+                    </li>
+                </ul>
+                </p>
+                <ul>
+                    <li>
+                        ecosystem of frameworks and libraries like React, Vue, and Node.js.
+                    </li>
+                </ul>
+                </p>
+                <br>
+                <section id="Java and JavaScript">
+                    <h2> Java and JavaScript</h2>
+                    <hr>
+                    <br>
+                    <p>Java:
+                        Type: A high-level, class-based, object-oriented programming language.
+                        Execution: Compiled into bytecode, which then runs on the Java Virtual Machine (JVM). This
+                        allows for
+                        platform
+                        independence ("write once, run anywhere").
+                        Use Cases: Primarily used for building robust, large-scale applications, enterprise-level
+                        software,
+                        Android
+                        mobile applications, and server-side development.
+                        Typing: Statically typed, meaning variable types are explicitly declared at compile time.
+                        Concurrency: Supports multi-threading, allowing for parallel execution of tasks.<br>
+                        JavaScript:
+                        Type: A high-level, prototype-based, object-oriented scripting language.
+                        Execution: Interpreted directly by web browsers for client-side scripting, or by runtime
+                        environments
+                        like
+                        Node.js for server-side development.
+                        Use Cases: Primarily used for creating interactive and dynamic web pages, enhancing user
+                        interfaces
+                        (UI/UX),
+                        and
+                        building single-page applications.
+                        Typing: Dynamically typed, meaning variable types can change during runtime and do not need
+                        explicit
+                        declaration.
+                        Concurrency: Primarily single-threaded, often employing asynchronous programming patterns to
+                        handle
+                        non-blocking
+                        operation</p><br>
+                    <section id="Hello World">
+                        <h2> Hello World</h2>
+                        <hr>
+                        <br>
+                        <p>
+                            <code>console.log("Hello, World!");</code>
+                        </p>
+                        <br>
+                        <section id="Varible">
+                            <h2> Varible</h2>
+                            <hr>
+                            <br>
+                            <p> In JavaScript, variables are named containers used to store data values. These value can
+                                be of various datatypes, such as numbers,
+                                strings, booleans, objects, and more. Variables allow you to store and manipulate data
+                                throughout your program.
+                                Variables in JavaScript are declared using one of three keywords: var, let</p>
+                            <br>
+                            <section id="Server-Side">
+                                <h2>Server-Side</h2>
+                                <p>Server-Side JavaScript
+                                    In the early days, JavaScript was used for front-end development to add behaviors to
+                                    HTML pages. Since 2009, JavaScript is also used as a server-side programming
+                                    language to
+                                    build scalable and dynamic web applications.
+
+                                    Node.js is one of the best and most popular JavaScript runtime environments for
+                                    building
+                                    the server of applications using JavaScript. Using Node.js, we can execute the
+                                    JavaScript code outside the browser and manage the server task. The server tasks can
+                                    be
+                                    an interaction with the database, APIS, file handling, or maybe network
+                                    communication.
+                                    Due to the event-driven architecture of Node.js, it is faster than other server-side
+                                    programming languages.</p>
+    </div>
+
+    </section>
+</body>
+
+</html>

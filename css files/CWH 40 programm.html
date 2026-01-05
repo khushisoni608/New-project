@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <style>
+        .container {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 12px;
+        }
+
+
+
+        @media(orientation:portrait) {
+            .container {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .khushi {
+            background-color: brown;
+            width: 300px;
+            height: 200px;
+            border: 2px solid black;
+
+        }
+    </style>
+
+
+</body>
+<div class="container">
+    <div class="khushi">1</div>
+    <div class="khushi">2</div>
+    <div class="khushi">3</div>
+    <div class="khushi">4</div>
+</div>
+<h1></h1>
+
+</html>
